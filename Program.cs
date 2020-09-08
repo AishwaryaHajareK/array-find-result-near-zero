@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Practice
 {
+    //Time complexity of this code is O(n) as for loop will trace all the elements till end of the array
+
     public class Program
     {
         static void Main(string[] args)

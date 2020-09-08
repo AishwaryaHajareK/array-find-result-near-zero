@@ -40,7 +40,7 @@ namespace Practice
                 for (int j = i + 1; j < size; j++)
                 {
                     result = array[i] + array[j];
-                    if (result == -1 || result == 0 || result == 1)
+                    if (result == -1 || result == 1)
                     {
                         Console.WriteLine("{0} & {1} have the sum {2} which is closest to 0", array[i],array[j],result);
                     }
